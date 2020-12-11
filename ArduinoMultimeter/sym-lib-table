@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ArduinoMultimeter-rescue)(type Legacy)(uri ${KIPRJMOD}/ArduinoMultimeter-rescue.lib)(options "")(descr ""))
+)

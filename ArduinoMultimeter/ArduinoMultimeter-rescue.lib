@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ADS1115_Breakout_Board-_Custom
+#
+DEF ADS1115_Breakout_Board-_Custom ADC 0 40 Y Y 1 F N
+F0 "ADC" 550 550 50 H V C CNN
+F1 "ADS1115_Breakout_Board-_Custom" 550 450 50 H V C CNN
+F2 "_Custom:ADS1115_Breakout_Board" 550 700 50 H I C CNN
+F3 "" 550 700 50 H I C CNN
+DRAW
+S 0 500 1100 100 0 1 0 f
+X VDD 1 100 0 100 U 50 50 1 1 I
+X A3 10 1000 0 100 U 50 50 1 1 I
+X GND 2 200 0 100 U 50 50 1 1 I
+X SCL 3 300 0 100 U 50 50 1 1 I
+X SDA 4 400 0 100 U 50 50 1 1 B
+X ADDR 5 500 0 100 U 50 50 1 1 I
+X ALRT 6 600 0 100 U 50 50 1 1 O
+X A0 7 700 0 100 U 50 50 1 1 I
+X A1 8 800 0 100 U 50 50 1 1 I
+X A2 9 900 0 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Battery_Clip-_Custom
+#
+DEF Battery_Clip-_Custom Clip 0 40 Y Y 1 F N
+F0 "Clip" -300 600 50 V V C CNN
+F1 "Battery_Clip-_Custom" -200 600 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 600 150 0 1 0 N
+X + 1 0 850 100 D 50 50 1 1 O
+X - 2 0 350 100 U 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
