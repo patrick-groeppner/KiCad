@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Red-Power-LED-Board-50x50-rescue)(type Legacy)(uri "${KIPRJMOD}/Red Power LED Board 50x50-rescue.lib")(options "")(descr ""))
+)
